@@ -1,0 +1,28 @@
+{
+  "name": "mt5-panel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Single-panel dashboard for N MetaTrader 5 terminals over MCP",
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "vite build --config vite.config.js",
+    "start": "node server/index.js",
+    "demo": "node tools/mock-mcp.js",
+    "apply-ports": "node scripts/apply-ports.js",
+    "sync-keys": "node scripts/sync-keys.js",
+    "doctor": "node scripts/doctor.js",
+    "start-fleet": "node scripts/start-fleet.js",
+    "restart-fleet": "node scripts/restart-fleet.js",
+    "reattach-eas": "node scripts/reattach-eas.js",
+    "autostart": "node scripts/install-autostart.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7",
+    "vue": "^3.5.13"
+  }
+}

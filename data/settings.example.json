@@ -1,0 +1,14 @@
+{
+  "pollSeconds": 15,
+  "warnRungs": 10,
+  "criticalRungs": 15,
+  "repeatAlertMinutes": 15,
+  "offlineRepeatMinutes": 30,
+  "escalationStep": 5,
+  "telegramEnabled": true,
+  "telegramChatId": "",
+  "telegramTokenFromHermes": true,
+  "telegramToken": "",
+  "alertOnStartup": false,
+  "httpPort": 8787
+}

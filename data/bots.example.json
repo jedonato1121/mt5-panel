@@ -1,0 +1,6 @@
+{
+  "servers": [
+    { "name": "mt5_1", "port": 22346, "label": "ACCOUNT_1", "install": "C:\\mt5 - 1", "token": "", "enabled": true },
+    { "name": "mt5_2", "port": 22347, "label": "ACCOUNT_2", "install": "C:\\mt5 - 2", "token": "", "enabled": true }
+  ]
+}

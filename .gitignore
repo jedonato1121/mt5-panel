@@ -1,0 +1,15 @@
+node_modules/
+web/node_modules/
+
+# live configuration and secrets — never commit these
+data/bots.json
+data/settings.json
+data/keyring.json
+data/state.json
+data/alerts.jsonl
+data/panel.log
+data/stdout.log
+data/ini-backup-*/
+
+# build output is generated, but ships inside the release zip on purpose
+web/dist/
